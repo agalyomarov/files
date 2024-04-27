@@ -1,0 +1,764 @@
+@media (max-width: 1090px) {
+  .salon__address {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .logostur {
+    grid-gap: 15px;
+  }
+
+  .tablecell img {
+    max-height: 32px;
+    max-width: 100px;
+  }
+
+  .chatheader {
+    padding: 25px;
+  }
+
+  .chathead {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 33px;
+    margin: 35px auto 50px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    width: 206px;
+    height: 43px;
+    background-position: 10px center;
+    margin: 0;
+  }
+
+  .logogrid {
+    grid-template-columns: 183px 1fr;
+    max-width: 530px;
+  }
+
+  .phone {
+    font-size: 19px;
+    margin-top: 5px;
+  }
+
+  .advantages {
+    padding: 0;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1.2fr;
+  }
+
+  .header .main {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .advantages {
+    grid-gap: 30px;
+  }
+
+  .wingood {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background: #fff;
+  }
+
+  .imggood {
+    border-radius: 0;
+  }
+
+  .descgood {
+    border-radius: 0;
+  }
+
+  .goodarr1 {
+    left: 18px;
+    z-index: 10;
+    top: 108px;
+    margin: 0;
+  }
+
+  .goodarr2 {
+    right: 18px;
+    z-index: 10;
+    top: 108px;
+    margin: 0;
+  }
+
+  .winclose {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  h1 {
+    font-size: 36px;
+    margin: 40px auto;
+  }
+
+  .chathead {
+    font-size: 20px;
+  }
+
+  .chatheader {
+    padding: 17px 20px 20px;
+  }
+
+  .chatcont {
+    padding: 0 20px 100px;
+  }
+
+  .mesbot {
+    grid-template-columns: 45px 1fr;
+    grid-gap: 10px;
+    max-width: calc(100% - 10px);
+  }
+
+  .mesimg {
+    height: 45px;
+  }
+
+  .mestext {
+    padding: 9px 13px 10px;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .butslink {
+    margin-top: 15px;
+  }
+
+  .butlink,
+  .butlinkshow {
+    padding: 8px 15px 10px;
+    font-size: 14px;
+  }
+
+  .butlinkcountry {
+    grid-template-columns: 18px 1fr;
+  }
+
+  .flag {
+    height: 13px;
+    width: 18px;
+    margin-top: 4px;
+  }
+
+  .datepicker--nav-action {
+    height: 30px;
+    width: 30px;
+    background-size: 8px;
+  }
+
+  .datepicker--nav-action:last-child {
+    background-position: 12px center;
+  }
+
+  .datepicker--nav-title {
+    font-size: 14px;
+    line-height: 0;
+    height: auto;
+  }
+
+  .datepicker--nav {
+    padding: 7px 25px;
+  }
+
+  .datepicker--day-name {
+    font-size: 10px;
+  }
+
+  .datepicker--days-names {
+    margin: 0 0 7px;
+    padding: 7px 25px;
+  }
+
+  .datepicker--content {
+    padding: 0 0 16px;
+  }
+
+  .datepicker--cells-days {
+    grid-gap: 1px;
+  }
+
+  .datepicker--cells {
+    padding: 0px 25px;
+  }
+
+  .datepicker--cell {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .datepicker-inline .datepicker {
+    width: 259px;
+  }
+
+  .alenaprint {
+    padding-left: 67px;
+  }
+
+  .butnumber {
+    padding: 8px 12px 10px;
+    width: 37px;
+  }
+
+  .inpphone {
+    margin-top: 0;
+  }
+
+  .inptext {
+    padding: 13px 20px;
+  }
+
+  .butphone {
+    padding: 13px 50px 14px;
+  }
+
+  .blocksms {
+    border-radius: 30px;
+  }
+
+  .icosms {
+    width: 50px;
+    height: 50px;
+  }
+
+  .smshead {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 15px 0 25px;
+  }
+
+  .smsdesc {
+    font-size: 14px !important;
+    max-width: 350px;
+  }
+
+  .codeword {
+    font-size: 18px;
+  }
+
+  .contcode {
+    grid-template-columns: 115px 1fr;
+  }
+
+  .icosuccess {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 18px;
+  }
+
+  .blocksuccess {
+    padding: 30px;
+    max-width: 420px;
+  }
+
+  .ssitem {
+    margin-right: 15px;
+  }
+
+  .descss {
+    font-size: 12px;
+    margin: 20px 0 15px;
+    line-height: 17px;
+  }
+
+  .loadcupon {
+    font-size: 13px;
+    padding: 7px 15px 8px 35px;
+    background-position: 18px 12px;
+    background-size: 9px;
+    bottom: 8px;
+    right: 8px;
+  }
+
+  .cuponsuccess {
+    margin-top: 20px;
+  }
+
+  .butinp {
+    margin-left: -50px;
+  }
+
+  .header {
+    padding-bottom: 17px;
+    padding-top: 17px;
+  }
+
+  .logo {
+    width: 126px;
+    height: 43px;
+    background-position: 30px center;
+    margin: 0 auto;
+  }
+
+  .logogrid {
+    grid-gap: 7px;
+    grid-template-columns: 1fr;
+    max-width: 260px;
+    display: grid;
+    margin: 0 auto;
+  }
+
+  .logotext {
+    border: 0;
+    padding: 0;
+    text-align: center;
+    height: auto;
+    margin-top: 8px;
+  }
+
+  .phone {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .autoslink3 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .autocat {
+    grid-column-end: 3;
+  }
+
+  .autocat {
+    font-size: 15px;
+    padding: 15px 0 2px;
+  }
+
+  .priceinfo {
+    position: inherit;
+  }
+
+  .priceinfoblock {
+    left: auto !important;
+    right: 0px !important;
+    bottom: auto !important;
+    top: 181px !important;
+    width: 300px;
+    font-size: 12px;
+    color: #8a9292;
+    padding: 11px 15px;
+  }
+
+  .chat {
+    overflow: hidden;
+  }
+
+  .priceinfo2 .priceinfoblock {
+    top: 24px !important;
+    right: -145px !important;
+  }
+
+  .fixed__botitem {
+    display: grid;
+    grid-template-columns: 45px 1fr 100px;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+  }
+
+  .fixed__bot {
+    padding: 10px 10px 10px;
+    margin-left: -15px;
+  }
+
+  .bot__post {
+    font-size: 12px;
+  }
+
+  .fixed__botitem .mesimg::before {
+    left: 33px;
+  }
+
+  .autoafter {
+    font-size: 14px;
+    line-height: 148%;
+  }
+
+  .fixed__text {
+    display: none;
+  }
+
+  .fixed__ph::before {
+    content: "Позвонить";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bb162b;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .fixed__ph:hover::before {
+    background-color: rgb(168, 36, 45);
+  }
+
+  .fixed__btn {
+    padding: 0px 15px;
+  }
+
+  .bot__name {
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .bot__post {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 670px) {
+  .blocksms {
+    width: calc(100% - 32px);
+  }
+
+  .contcode {
+    padding: 10px 0 15px;
+    grid-template-columns: 1fr;
+  }
+
+  .codeword {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .blocksuccess {
+    width: calc(100% - 32px);
+  }
+
+  .tablecell img {
+    max-height: 24px;
+    max-width: 70px;
+  }
+
+  .advantages {
+    grid-template-columns: 1fr;
+    grid-gap: 11px;
+  }
+}
+
+@media (max-width: 650px) {
+  .butscountry {
+    max-width: 100px;
+  }
+
+  .butscountry .butlink {
+    white-space: nowrap;
+  }
+
+  .ai3 ~ .advantagetext {
+    padding-top: 0;
+  }
+
+  .butslinkk {
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .autolink {
+    padding: 15px;
+  }
+
+  .autoname {
+    font-size: 16px;
+  }
+
+  .autoprice {
+    font-size: 13px;
+  }
+
+  .autobut {
+    font-size: 13px;
+    padding: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .priceinfo2 .priceinfoblock {
+    width: 250px;
+    right: 0 !important;
+  }
+}
+
+@media (max-width: 570px) {
+  .blockcode {
+    padding: 10px 40px;
+  }
+
+  .imggood {
+    height: 220px;
+  }
+
+  .goodarr {
+    top: 92px;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 22px;
+    margin: 24px auto 30px;
+    padding: 0 14px;
+  }
+  .title_descr {
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 22px;
+  }
+  .tablecell img {
+    max-height: 22px;
+    max-width: 65px;
+  }
+
+  .logostur {
+    grid-gap: 12px;
+  }
+
+  .chathead {
+    font-size: 15px;
+    line-height: 145%;
+    margin-bottom: 15px;
+  }
+
+  .chatheader {
+    padding: 13px 20px 5px;
+  }
+
+  .chathead {
+    font-size: 15px;
+    line-height: 145%;
+    margin-bottom: 10px;
+  }
+
+  .autoslink {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .thanks {
+    padding: 37px 20px 30px !important;
+    width: 100% !important;
+  }
+
+  .chatheader {
+    padding: 15px 20px 13px;
+  }
+
+  .blockcode {
+    padding: 10px 20px;
+  }
+
+  .advantagetext {
+    font-size: 13px;
+  }
+
+  .header {
+    padding-bottom: 15px;
+    padding-top: 12px;
+  }
+
+  .autoslink3 {
+    grid-template-columns: 1fr;
+  }
+
+  .autocat {
+    grid-column-end: 2;
+  }
+
+  .priceinfoblock {
+    top: 170px !important;
+  }
+}
+
+@media (max-width: 490px) {
+  .tablecell img {
+    max-height: 18px;
+    max-width: 55px;
+  }
+}
+
+@media (max-width: 450px) {
+  .inpphone,
+  .butphone {
+    width: 100%;
+  }
+
+  body {
+    padding: 0px 10px;
+  }
+
+  .chatcont {
+    padding: 0 10px 100px;
+  }
+
+  .tablecell img {
+    max-height: 13px;
+  }
+
+  .thanks {
+    padding: 25px 20px 25px !important;
+  }
+
+  .ssitem {
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .smsdesc {
+    padding: 0 20px;
+  }
+
+  .smshead {
+    font-size: 21px;
+    margin: 15px 0 20px;
+  }
+
+  .icosuccess {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0;
+  }
+
+  .imggood {
+    height: 165px;
+  }
+
+  .goodarr {
+    top: 65px;
+  }
+
+  .winclose {
+    top: 10px;
+    right: 18px;
+  }
+
+  .divpricegood {
+    display: grid;
+    grid-gap: 20px;
+  }
+
+  .pricegood {
+    margin: 0;
+    text-align: center;
+  }
+
+  .fixed__bot {
+    padding: 10px 10px 10px;
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .fixed__botitem {
+    grid-template-columns: 35px 1fr 100px;
+    gap: 10px;
+  }
+
+  .mesimg {
+    height: 35px;
+  }
+
+  .mesbot {
+    grid-template-columns: 35px 1fr;
+  }
+
+  .fixed__botitem .mesimg::before {
+    left: 27px;
+  }
+
+  .agreement-label {
+    font-size: 13px;
+  }
+
+  .cash2 {
+    padding: 10px 10px 10px 30px;
+    font-size: 14px;
+    line-height: 130%;
+  }
+}
+
+@media (max-width: 370px) {
+  .mesbot {
+    grid-template-columns: 35px 1fr;
+  }
+
+  .mesimg {
+    height: 35px;
+  }
+
+  .butlink {
+    padding: 10px 14px 11px;
+  }
+
+  .logotur {
+    height: 33px;
+  }
+
+  .tablecell img {
+    max-height: 16px;
+  }
+
+  .logostur {
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  h1 {
+    font-size: 22px;
+    margin: 20px auto 23px;
+  }
+
+  .advantage:nth-child(2) .advantagetext {
+    padding-top: 0px;
+  }
+
+  .fixed__botitem .mesimg::before {
+    left: 27px;
+    width: 9px;
+    height: 9px;
+    bottom: -3px;
+  }
+
+  .bot__name {
+    margin-top: 0px;
+  }
+}
+
+@media (max-height: 750px) {
+  .blocksuccess {
+    margin-top: -200px !important;
+  }
+}
+
+@media (max-height: 700px) {
+  .blocksuccess {
+    margin-top: -190px !important;
+  }
+}
+
+@media (max-height: 640px) {
+  .blocksuccess {
+    margin-top: -170px !important;
+  }
+}
